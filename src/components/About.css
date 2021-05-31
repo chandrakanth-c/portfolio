@@ -1,0 +1,150 @@
+
+.about-container{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.about-image{
+    background-color: white;
+    padding: 10px;
+    height: 22rem;
+    flex: 50%;
+}
+
+.about-text{
+    background-color: white;
+    padding: 10px;
+    flex: 50%;
+}
+
+.image{
+    padding-top: 30px;
+    margin-left: 4rem;
+}
+
+.displayText{
+    margin-right: 4rem;
+    padding-top: 30px;
+    font-family: 'Sigmar One', cursive;
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.static-txt{
+    font-family: 'Lobster', cursive;
+    color: black;
+}
+
+.dynamic-txt li span{
+    font-family: 'Sigmar One', cursive;
+    position: relative;
+}
+
+.displayText .dynamic-txt{
+    line-height: 60px;
+    height: 50px;
+    background: white;
+    overflow: hidden;
+}
+
+.dynamic-txt li{
+    list-style: none;
+    position: relative;
+    top: 0rem;
+    animation:slide 6s steps(3) infinite;
+}
+
+.dynamic-txt-container{
+    margin-top:0.5rem;
+}
+
+#front-end{
+    color: coral;
+}
+
+#back-end{
+    color: darkturquoise;
+}
+
+#full-stack{
+    color: indigo
+}
+
+@keyframes slide {
+    100%{top:-12.3rem}   
+}
+
+.image img{
+    border: 1px solid white;
+    border-radius: 5rem;
+    height: 300px;
+    width: 300px;
+}
+
+.dynamic-txt li span::after{
+    content:"";
+    position:absolute;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    background: white;
+    border-left: 2px solid rgb(116, 111, 111);
+    animation: typing 2s steps(18) infinite;
+}
+
+@keyframes typing {
+    40%, 60%{
+      left: calc(100% + 30px);
+    }
+    100%{
+      left: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .dynamic-txt li{
+        font-size: 24px;
+    }
+
+    .static-txt{
+        font-size: 25px;
+    }
+
+    .image img{
+        height: 250px;
+        width: 250px;
+        margin-left: 1.5rem;
+    }
+
+    .image{
+        text-align: center;
+        padding-top: 0;
+        margin-left: 0;
+    }
+
+    .about-image{
+        flex: 100%;
+        padding: 0;
+        height: 17rem;
+    }
+
+    .displayText{
+        padding-top: 0%;
+    }
+
+    .about-text{
+        flex: 100%;
+        padding: 0;
+    }
+
+    .text-animation-container{
+        float: none;
+    }
+
+    .displayText{
+        margin-right: 0;
+    }
+}
