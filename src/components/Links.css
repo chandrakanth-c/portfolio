@@ -1,0 +1,35 @@
+.links-conatiner a{
+    padding:30px;
+}
+
+.individual-links{
+    font-size: 3rem;
+}
+
+.individual-links:hover{
+    color: black;
+}
+
+.resume-download-block{
+    border: 1px solid black;
+    background-color: black;
+    height: 2.5rem;
+    width: 20rem;
+    font-size: 25px;
+    margin: 5px auto 0 auto;
+    border-radius: 2rem;
+}
+
+.resume-download-block span{
+    font-family: 'Lobster', cursive;
+    font-weight: 50;
+}
+
+.resume-download-block a{
+    text-decoration: none;
+    color: white;
+}
+
+.resume-download-block a:hover{
+    color: gray;
+}

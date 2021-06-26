@@ -1,0 +1,38 @@
+.project-card{
+    margin: 15px;
+    box-shadow: 0px 0px lightgray;
+}
+
+.project-card:hover{
+    box-shadow: 0px 0px lightblue;
+}
+
+.project-title{
+    text-align: center;
+    color: chocolate;
+    font-weight: bolder;
+}
+
+.project-description{
+    text-align: center;
+    color: brown;
+}
+
+.project-button{
+    text-align: center;
+}
+
+.button-text{
+    color: black;
+}
+
+@media screen and (max-width: 1000px){
+    .project-card{
+        margin: 15px;
+        box-shadow: 0px 0px lightblue;
+    }
+
+    .project-card:hover{
+        box-shadow: 0px 0px lightblue;
+    }
+}

@@ -3,6 +3,7 @@ import Header from './components/Header';
 import CarouselItem from './components/CarouselItem';
 import HeadingCenter from './components/HeadingCenter';
 import About from './components/About';
+import Projects from './components/Projects';
 
 function App() {
   return (
@@ -11,6 +12,10 @@ function App() {
       <CarouselItem/>
       <HeadingCenter text="about"/>
       <About/>
+      <HeadingCenter text="projects"/>
+      <Projects/>
+      <HeadingCenter text="timeline"/>
+      
     </div>
   );
 }

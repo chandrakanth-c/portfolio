@@ -3,10 +3,6 @@ import './MobNav.css';
 
 class MobNav extends React.Component{
 
-    constructor(props){
-        super(props);
-    }
-
     dropNav = () => {
         const divElement = document.getElementsByClassName("header-right")[0];
         var height=divElement.style.height;

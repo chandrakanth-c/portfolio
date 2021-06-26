@@ -1,0 +1,22 @@
+.container{
+    width: 90%;
+    margin: 30px auto 0;
+}
+
+.individual-card{
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.col{
+    margin: 1rem;
+}
+
+@media screen and (max-width: 500px){
+    .col{
+        margin: 0rem;
+    }
+}
+
+
+
