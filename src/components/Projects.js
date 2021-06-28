@@ -24,13 +24,13 @@ function Projects(){
                 </div>
                 <div className="row">
                     <div className="col">
-                        <ProjectCard image={fund} title="Fundraiser" line1="Book Store Application" line2="Java, Swing, Db4o"/>
+                        <ProjectCard image={fund} title="Fundraiser" line1="Fund Raiser" line2="Java, Swing, Db4o"/>
                     </div>
                     <div className="col">
-                        <ProjectCard image={smart} title="Smartmanager" line1="Book Store Application" line2="SpringMVC, Hiberante, MySQL"/>
+                        <ProjectCard image={smart} title="Smartmanager" line1="Project Management Tool" line2="SpringMVC, Hiberante, MySQL"/>
                     </div>
                     <div className="col">
-                        <ProjectCard image={weather} title="Weather Forecast" line1="Book Store Application" line2="React"/>
+                        <ProjectCard image={weather} title="Weather Forecast" line1="Weather Forecast Application" line2="React"/>
                     </div>
                 </div>
             </div>
