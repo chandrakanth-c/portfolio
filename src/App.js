@@ -4,18 +4,18 @@ import CarouselItem from './components/CarouselItem';
 import HeadingCenter from './components/HeadingCenter';
 import About from './components/About';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
       <Header/>
       <CarouselItem/>
-      <HeadingCenter text="about"/>
+      <HeadingCenter text="about me"/>
       <About/>
       <HeadingCenter text="projects"/>
       <Projects/>
-      <HeadingCenter text="timeline"/>
-      
+      <Footer/>
     </div>
   );
 }

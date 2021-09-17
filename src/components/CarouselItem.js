@@ -12,47 +12,48 @@ function CarouselItem(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
+                    height="1000em"
                     src={carousel1}
                     alt="First slide"
                     />
                     <Carousel.Caption>
-                    <p className="caption">Don't be mean, just go green</p>
-                    <h5 className="headCaption">GREENER</h5>
+                    <h5 className="headCaption">That servers a million purposes!</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
+                    height="1000em"
                     src={carousel2}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <p className="caption">Welcome to the green team</p>
-                    <h5 className="headCaption">GREENER</h5>
+                    <h5 className="headCaption">Hey! What is good about a software that is not understood?</h5>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100 backend"
+                    height="1000em"
+                    src={carousel3}
+                    alt="Third slide"
+                    />
+                    <Carousel.Caption>
+                    <h5 className="headCaption">Where the magic happens!</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
                 
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={carousel3}
-                    alt="Third slide"
-                    />
-                    <Carousel.Caption>
-                    <p className="caption">Take a stand for the love of green</p>
-                    <h5 className="headCaption">GREENER</h5>
-                    </Carousel.Caption>
-                </Carousel.Item>
-                
-                <Carousel.Item>
-                    <img
+                    height="1000em"
                     src={carousel4}
                     alt="Third slide"
                     />
                     <Carousel.Caption>
-                    <p className="caption">Go green - stop pretending actions don't have consequences</p>
-                    <h5 className="headCaption">GREENER</h5>
+                    <h5 className="headCaption">The complete product! Ready to ship?</h5>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

@@ -18,13 +18,13 @@ function ProjectCard(props){
                     <p>{props.line2}</p>
                 </div>
             </Card.Text>
-            <div className="project-button">
+            <a href={props.link} target="_blank" className="project-button">
                 <Button variant="outline-secondary">
                     <div className="button-text">
                         Project files
                     </div>
                 </Button>
-            </div>
+            </a>
             </Card.Body>
             </Card>
         </div>

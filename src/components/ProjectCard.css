@@ -26,6 +26,10 @@
     color: black;
 }
 
+.card-body{
+    text-align: center;
+}
+
 @media screen and (max-width: 1000px){
     .project-card{
         margin: 15px;

@@ -1,0 +1,21 @@
+.indexp{
+    height: 10rem;
+    width: 100%;
+    border: 5px solid red;
+    margin: 1rem;
+}
+
+.img{
+    height: 1px;
+}
+
+
+
+@media screen and (max-width: 500px){
+    .col{
+        margin: 0rem;
+    }
+}
+
+
+

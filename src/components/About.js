@@ -4,7 +4,7 @@ import Links from '../components/Links';
 
 function About(){
     return(
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="about-image">
                 <div className="image">
                     <img id="imageId" src={img} alt="portfolio_image"/>
