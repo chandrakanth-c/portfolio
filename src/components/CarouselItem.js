@@ -12,7 +12,7 @@ function CarouselItem(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    height="700em"
+                    height="900em"
                     src={carousel1}
                     alt="First slide"
                     />
@@ -24,7 +24,7 @@ function CarouselItem(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    height="700em"
+                    height="900em"
                     src={carousel2}
                     alt="Third slide"
                     />
@@ -36,7 +36,7 @@ function CarouselItem(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100 backend"
-                    height="700em"
+                    height="900em"
                     src={carousel3}
                     alt="Third slide"
                     />
@@ -48,7 +48,7 @@ function CarouselItem(){
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    height="700em"
+                    height="900em"
                     src={carousel4}
                     alt="Third slide"
                     />
